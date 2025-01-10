@@ -12,8 +12,6 @@ print(3 <= 3)
 var = 123
 empty = ''
 
-#print(3 + var)
-
 b = None
 
 print(b)

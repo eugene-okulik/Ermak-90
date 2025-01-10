@@ -10,4 +10,3 @@ print()
 print('multiplication num1 and num2')
 print(num1 * num2)
 
-
