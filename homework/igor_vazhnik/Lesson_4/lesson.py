@@ -46,10 +46,10 @@ print(d is e)
 # user_name = input('What is your name?')
 # print('Hello', user_name, '!')
 
-#ser_input = int(input('Enter number: '))
-#print(type(user_input))
+# ser_input = int(input('Enter number: '))
+# print(type(user_input))
 
-#print(user_input + 2)
+# print(user_input + 2)
 
 # преобразование типов данных  str(), int(), bool(), float()
 
@@ -71,7 +71,7 @@ print(type(fl))
 
 # List(список)
 
-my_list = [1, 3, 6, 7, None, 'text', False, 2.42, 'asdfg', 'last','last2']
+my_list = [1, 3, 6, 7, None, 'text', False, 2.42, 'asdfg', 'last', 'last2']
 
 print(type(my_list))
 print(my_list)
@@ -105,7 +105,7 @@ print('text' in my_list2)
 
 # Tuple(кортеж) - скобки круглые, нельзя добавлять и изменять элементы!!!
 
-my_tuple = (1, 3, 6, 7, None, 'text', False, 2.42, 'asdfg', 'last','last2')
+my_tuple = (1, 3, 6, 7, None, 'text', False, 2.42, 'asdfg', 'last', 'last2')
 print(my_tuple[2])
 print(my_tuple[-1])
 # my_tuple[4] = 45
@@ -127,7 +127,7 @@ print(type(ttuple))
 
 # Set(множества) фигурные скобки {}, содержить только неповторяющиеся элементы!!!, не гарантирует порядок!!!
 
-my_set = {1, 3, 6, 7, None, 'text', False, 2.42, 'asdfg', 'last','last2'}
+my_set = {1, 3, 6, 7, None, 'text', False, 2.42, 'asdfg', 'last', 'last2'}
 print(my_set)
 # print(my_set[2])
 my_set.add('dff')
@@ -146,10 +146,11 @@ print(list1)
 print(type(list1))
 
 # list1 = list(set([1, 2, 5, 6, 2, 1, 8]))
-
-my_set2 = {} # Это словарь !!!
+# Это словарь !!!
+my_set2 = {}
 print(type(my_set2))
-my_set3 = set() # Пустой сет можно создать только так
+# Пустой сет можно создать только так
+my_set3 = set()
 print(type(my_set3))
 
 # Dictionary(словари) {'one': 'value', 'two': 'value2'}
