@@ -1,0 +1,53 @@
+[33mcommit d17f77e4c6e0dc3e52c63e5e6ceec62a4204741a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 9559519 0f2f214
+Author: Eugeny Okulik <98970620+eugene-okulik@users.noreply.github.com>
+Date:   Sat Jan 11 11:13:44 2025 +0300
+
+    Merge pull request #2 from eugene-okulik/igor_homework_3
+    
+    igor: homework 3 completed
+
+[33mcommit 0f2f214e1427d076e4fd6c99cb006d3ce9e82eea[m[33m ([m[1;31morigin/igor_homework_3[m[33m, [m[1;32migor_homework_3[m[33m)[m
+Author: ivazhnik <vazhnikiu@gmail.com>
+Date:   Fri Jan 10 19:24:52 2025 +0300
+
+    fixed blank line at end of file
+
+[33mcommit 9b385d3b1073e25dd028d5a6980369ee9ab78b54[m
+Author: ivazhnik <vazhnikiu@gmail.com>
+Date:   Fri Jan 10 19:13:24 2025 +0300
+
+    fixed newline at the end of file and  whitespace around arithmetic operator
+
+[33mcommit e4413ff5905d3bfcce9d4e13410f31172f855f37[m
+Author: ivazhnik <vazhnikiu@gmail.com>
+Date:   Fri Jan 10 11:02:44 2025 +0300
+
+    Homework_3 done
+
+[33mcommit 95595197d02b80b43823d3ffd2c5ebaefecef8c7[m[33m ([m[1;32mlesson_3[m[33m)[m
+Merge: 9e39a0e 6330a51
+Author: Eugeny Okulik <98970620+eugene-okulik@users.noreply.github.com>
+Date:   Thu Jan 9 15:38:03 2025 +0300
+
+    Merge pull request #1 from eugene-okulik/Igor_Vazhnik
+    
+    Igor V: homework2
+
+[33mcommit 6330a516c76fc48a767375475e07ae335fe531ed[m
+Author: ivazhnik <vazhnikiu@gmail.com>
+Date:   Thu Jan 9 10:20:50 2025 +0300
+
+    Add word in file
+
+[33mcommit 36c1589449f1f1a12bb6ed704dc2762d4d4799f8[m
+Author: ivazhnik <vazhnikiu@gmail.com>
+Date:   Wed Jan 8 17:53:25 2025 +0300
+
+    homework2
+
+[33mcommit 9e39a0e93f7b8c8f9b3d294caa787c8f3cdcba12[m
+Author: Eugeny Okulik <98970620+eugene-okulik@users.noreply.github.com>
+Date:   Tue Dec 31 10:33:50 2024 +0300
+
+    Initial commit
