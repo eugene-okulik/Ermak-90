@@ -9,8 +9,8 @@ print(my_dict['tuple'][-1])
 my_dict['list'].append('last')
 # Удаление второго элемента списка
 my_dict['list'].pop(1)
-# Добавление элемента с ключом 'i am a tuple',
-my_dict['dict']['i am a tuple'] = 'i am a tuple!'
+# Добавление элемента с ключом ('i am a tuple'),
+my_dict['dict'][('i am a tuple',)] = 'i am a tuple!'
 # Удаление элемента
 my_dict['dict'].pop('jan')
 # Добавление нового элемента в множество
