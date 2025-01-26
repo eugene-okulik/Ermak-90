@@ -9,7 +9,7 @@ my_tuple = (2, 6, 9)
 # d = my_tuple[1]
 # e = my_tuple[2]
 a, b = my_list
-#a = my_list
+# a = my_list
 c, d, e = my_tuple
 # print(c, d, e)
 # print(a)
@@ -63,7 +63,7 @@ print(msg)
 print(msg2)
 
 data = '12,3'
-data = data.replace(',','.')
+data = data.replace(', ','.')
 print(data)
 
 txt = ' admin '
