@@ -63,7 +63,7 @@ print(msg)
 print(msg2)
 
 data = '12,3'
-data = data.replace(', ','.')
+data = data.replace(',', '.')
 print(data)
 
 txt = ' admin '
