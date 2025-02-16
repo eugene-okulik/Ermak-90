@@ -10,7 +10,7 @@ def decor(func):
 def calc(first, second):
     if first == second:
         return first + second
-    #if operation == '+':
+    # if operation == '+':
     #    return first + second
     elif first > second:
         return first - second
@@ -21,6 +21,7 @@ def calc(first, second):
     else:
         print('Incorrect numbers')
         return
+
 
 a = (int)(input('Input first number: '))
 b = (int)(input('Input second number: '))
