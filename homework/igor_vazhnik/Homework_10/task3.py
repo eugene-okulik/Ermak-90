@@ -1,26 +1,28 @@
 def decor(func):
 
-    def wrapper(*args):
-        result = func(*args)
+    def wrapper(a, b):
+        if a == b and a > 0 and b > 0:
+            result = func(a, b, '+')
+        elif a > b and a > 0 and b > 0:
+            result = func(a, b, '-')
+        elif a < b and a > 0 and b > 0:
+            result = func(a, b, '/')
+        elif a < 0 or b < 0:
+            result = func(a, b,'*')
         print(result)
     return wrapper
 
 
 @decor
-def calc(first, second):
-    if first == second:
+def calc(first, second, operation):
+    if operation == '+':
         return first + second
-    # if operation == '+':
-    #    return first + second
-    elif first > second:
+    elif operation == '-':
         return first - second
-    elif second > first:
+    elif operation == '/':
         return first / second
-    elif first < 0 and second < 0:
+    elif operation == '*':
         return first * second
-    else:
-        print('Incorrect numbers')
-        return
 
 
 a = (int)(input('Input first number: '))
