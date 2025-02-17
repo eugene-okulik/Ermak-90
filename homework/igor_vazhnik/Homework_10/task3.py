@@ -1,5 +1,4 @@
 def decor(func):
-
     def wrapper(a, b):
         if a == b and a > 0 and b > 0:
             result = func(a, b, '+')
@@ -8,8 +7,9 @@ def decor(func):
         elif a < b and a > 0 and b > 0:
             result = func(a, b, '/')
         elif a < 0 or b < 0:
-            result = func(a, b,'*')
+            result = func(a, b, '*')
         print(result)
+
     return wrapper
 
 
