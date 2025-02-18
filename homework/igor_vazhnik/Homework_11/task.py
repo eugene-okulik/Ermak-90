@@ -66,7 +66,7 @@ class SchoolTextbooks(Book):
 textBooks = SchoolTextbooks('Математика', 'Иванов', 501, 'asdf', False,
                             'Алгебра', 9, False)
 textBooks2 = SchoolTextbooks('Химия', 'Иванов', 501, 'asdf', False,
-                            'Химия', 9, False)
+                             'Химия', 9, False)
 textBooks.reserved = True
 
 if textBooks.reserved:
