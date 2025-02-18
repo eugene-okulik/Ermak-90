@@ -9,6 +9,7 @@ class Book:
         self.isbn = isbn
         self.reserved = reserved
 
+
 book = Book('Идиот', 'Достоевский', 501, 'asdf', False)
 book2 = Book('Идиот2', 'Достоевский', 502, 'asdf', True)
 book3 = Book('Идиот3', 'Достоевский', 503, 'asdf', False)
@@ -22,7 +23,7 @@ if book.reserved:
           f' зарезервирована')
 else:
     print(f'Название: {book.title}, Автор: {book.author}, страниц: {book.number_page}, материал: {book.page_material}')
-#print(book)
+# print(book)
 
 if book2.reserved:
     print(f'Название: {book2.title}, Автор: {book2.author}, страниц: {book2.number_page}, материал: '
@@ -60,6 +61,7 @@ class SchoolTextbooks(Book):
         self.school_subject = school_subject
         self.school_class = school_class
         self.availability_tasks = availability_tasks
+
 
 textBooks = SchoolTextbooks('Математика', 'Иванов', 501, 'asdf', False,
                             'Алгебра', 9, False)
