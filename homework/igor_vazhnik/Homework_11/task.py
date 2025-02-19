@@ -9,14 +9,14 @@ class Book:
         self.isbn = isbn
         self.reserved = reserved
 
-
     def printed(self):
         if self.reserved:
             print(
-                f'Название: {self.title}, Автор: {self.author}, страниц: {self.number_page}, материал: {self.page_material},'
-                f' зарезервирована')
+                f'Название: {self.title}, Автор: {self.author}, страниц: {self.number_page}, '
+                f'материал: {self.page_material}, зарезервирована')
         else:
-            print(f'Название: {self.title}, Автор: {self.author}, страниц: {self.number_page}, материал: {self.page_material}')
+            print(f'Название: {self.title}, Автор: {self.author}, страниц: {self.number_page}, '
+                  f'материал: {self.page_material}')
 
 
 book = Book('Идиот', 'Достоевский', 501, 'asdf', False)
@@ -42,14 +42,13 @@ class SchoolTextbooks(Book):
         self.school_class = school_class
         self.availability_tasks = availability_tasks
 
-
     def printed(self):
         if self.reserved:
-            print(f'Название: {self.title}, Автор: {self.author}, страниц: {self.number_page}, предмет: '
-          f'{self.school_subject}, класс: {self.school_class}, зарезервирована')
+            print(f'Название: {self.title}, Автор: {self.author}, страниц: {self.number_page}, '
+                  f'предмет: {self.school_subject}, класс: {self.school_class}, зарезервирована')
         else:
-            print(f'Название: {self.title}, Автор: {self.author}, страниц: {self.number_page}, предмет: '
-                  f'{self.school_subject}, класс: {self.school_class}')
+            print(f'Название: {self.title}, Автор: {self.author}, страниц: {self.number_page}, '
+                  f'предмет: {self.school_subject}, класс: {self.school_class}')
 
 
 textBooks = SchoolTextbooks('Математика', 'Иванов', 501, 'asdf', False,
