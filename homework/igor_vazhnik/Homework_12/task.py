@@ -7,6 +7,7 @@ class Flower():
         self.stemlength = stemlength
         self.price = price
 
+
 class TypeFlower(Flower):
     def __init__(self, name, average_life_time, freshness, color, stemlength, price, special):
         super().__init__(name, average_life_time, freshness, color, stemlength, price)
@@ -24,11 +25,10 @@ class Bouquet():
         return life_time_sum / len(self.flowers)
 
     def find_average_life_time(self):
-        print(f'Цветы по среднему времени жизни более 5 дней:')
+        print('Цветы по среднему времени жизни более 5 дней: ')
         for flower in self.flowers:
             if flower.average_life_time > 5:
                 print(f'{flower.name} {flower.average_life_time}')
-
 
     def gen_sum(self):
         sum = 0
@@ -48,6 +48,6 @@ bouquet.flowers.append(flower)
 bouquet.flowers.append(flower2)
 bouquet.flowers.append(flower3)
 
-print(f'Среднее время увядания букета', bouquet.wilting_time())
+print('Среднее время увядания букета: ', bouquet.wilting_time())
 bouquet.find_average_life_time()
-print(f'Общая сумма букетов', bouquet.gen_sum())
+print('Общая сумма букетов: ', bouquet.gen_sum())
