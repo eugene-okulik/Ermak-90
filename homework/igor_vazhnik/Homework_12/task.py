@@ -28,7 +28,8 @@ class Bouquet():
         print('Цветы по среднему времени жизни более 5 дней: ')
         for flower in self.flowers:
             if flower.average_life_time > 5:
-                print(f'{flower.name} {flower.average_life_time}')
+                print(f'{flower.name} {flower.average_life_time} {flower.freshness} {flower.color} '
+                      f'{flower.stemlength} {flower.price}')
 
     def gen_sum(self):
         sum = 0
@@ -36,6 +37,35 @@ class Bouquet():
             sum += flower.price
         return sum
 
+
+
+    def sort_price(self):
+        sorted(self.flowers, key=lambda one_flower: one_flower.price)
+        print('Сортировка по цене:')
+        for flower in self.flowers:
+            print(f'{flower.name} {flower.average_life_time} {flower.freshness} {flower.color} '
+                  f'{flower.stemlength} {flower.price}')
+
+    def sort_freshness(self):
+        sorted(self.flowers, key=lambda one_flower: one_flower.freshness)
+        print('Сортировка по свежести:')
+        for flower in self.flowers:
+            print(f'{flower.name} {flower.average_life_time} {flower.freshness} {flower.color} '
+                  f'{flower.stemlength} {flower.price}')
+
+    def sort_color(self):
+        sorted(self.flowers, key=lambda one_flower: one_flower.color)
+        print('Сортировка по цвету:')
+        for flower in self.flowers:
+            print(f'{flower.name} {flower.average_life_time} {flower.freshness} {flower.color} '
+                  f'{flower.stemlength} {flower.price}')
+
+    def sort_stemlength(self):
+        sorted(self.flowers, key=lambda one_flower: one_flower.stemlength)
+        print('Сортировка по длине стебля:')
+        for flower in self.flowers:
+            print(f'{flower.name} {flower.average_life_time} {flower.freshness} {flower.color} '
+                  f'{flower.stemlength} {flower.price}')
 
 flower = TypeFlower('Розы', 5, 10, 'Красные', 50, 40,
                     'много шипов')
@@ -51,3 +81,7 @@ bouquet.flowers.append(flower3)
 print('Среднее время увядания букета: ', bouquet.wilting_time())
 bouquet.find_average_life_time()
 print('Общая сумма букетов: ', bouquet.gen_sum())
+bouquet.sort_price()
+bouquet.sort_freshness()
+bouquet.sort_color()
+bouquet.sort_stemlength()
