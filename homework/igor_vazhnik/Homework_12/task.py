@@ -37,8 +37,6 @@ class Bouquet():
             sum += flower.price
         return sum
 
-
-
     def sort_price(self):
         sorted(self.flowers, key=lambda one_flower: one_flower.price)
         print('Сортировка по цене:')
