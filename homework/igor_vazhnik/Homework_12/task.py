@@ -65,6 +65,7 @@ class Bouquet():
             print(f'{flower.name} {flower.average_life_time} {flower.freshness} {flower.color} '
                   f'{flower.stemlength} {flower.price}')
 
+
 flower = TypeFlower('Розы', 5, 10, 'Красные', 50, 40,
                     'много шипов')
 flower2 = TypeFlower('Розы', 6, 10, 'Розовые', 60, 35,
