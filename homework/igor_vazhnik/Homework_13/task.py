@@ -1,5 +1,6 @@
+import datetime
 import os
-import re, datetime
+import re
 
 base_path = os.path.dirname(__file__)
 homework_path = os.path.dirname(os.path.dirname(base_path))
@@ -11,7 +12,7 @@ with open(new_file_path, 'r') as data_file:
         data = datetime.datetime.strptime(day.group(), '%Y-%m-%d %H:%M:%S.%f')
         line_num = int(line[0])
         if line_num == 1:
-            print(data + datetime.timedelta(days = 7))
+            print(data + datetime.timedelta(days=7))
         if line_num == 2:
             print(data.weekday())
         if line_num == 3:
