@@ -4,7 +4,7 @@ import re
 
 base_path = os.path.dirname(__file__)
 homework_path = os.path.dirname(os.path.dirname(base_path))
-new_file_path = os.path.join(homework_path, 'eugene_okulik','hw_13', 'data.txt')
+new_file_path = os.path.join(homework_path, 'eugene_okulik', 'hw_13', 'data.txt')
 
 with open(new_file_path, 'r') as data_file:
     for line in data_file.readlines():
